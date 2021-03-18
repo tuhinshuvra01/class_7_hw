@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>About Page</title>
+		<link rel="stylesheet" href="css/style.css">
+		<style>
+		.useDiv {
+		border: 5px outset #051992;
+		background-color: #ade6b4;
+		text-align: center;
+		}
+		</style>
+	</head>
+	<body>
+		<h1 align="center">About Page</h1>
+		
+		<h1 align="center">HTML Block and Inline Elements</h1>
+		<h2 align="right"> <a href="index.html">Go Home</a></h2>
+		
+		<!-- ---------------------------------------------Block Elements Example--------------------------------------------------------------- -->
+		<h2 align="center">Block Elements Example </h2>
+		
+		
+		<hr>
+		<h2>HTML < address > Tag</h2>
+		<address>
+						Written by <a href="mailto:tuhinshuvr18@gmail.com">Tuhin Shuvra</a>.<br>
+						Visit us at:<br>
+						<a href="https://quantummethod.org.bd">https://quantummethod.org.bd</a> <br>
+						H-123, Block-A, Banasree, Rampura, Dhaka<br>
+						Bangladesh
+		</address>
+		
+		
+		<hr>
+		<h2>HTML < article > Tag</h2>
+		<article>
+						<h2>Lorem</h2>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Exercitationem blanditiis unde tempore, explicabo rem minus.</p>
+		</article>
+		
+		<hr>
+		<h2>HTML < aside > Tag</h2>
+		<aside>
+						<h4>Lorem ipsum, dolor</h4>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Molestiae at cupiditate ad reiciendis, nisi ratione?</p>
+		</aside>
+		
+		<hr>
+		<h2>HTML < blockquote > Tag</h2>
+		<p>Lorem ipsum dolor sit, amet:</p>
+		<blockquote cite="https://quantummethod.org.bd">
+						Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Et esse nobis, atque, voluptatem tempora est, laboriosam officiis eaque vitae quae deleniti accusantium, aliquid dicta cupiditate. Deleniti quos voluptatum vitae veniam?
+		</blockquote>
+		
+		<hr>
+		<h1>HTML < canvas > and < noscript  > element</h1>
+		<canvas id="thisCanvas">Your browser does not support the canvas tag.</canvas>
+		<script>
+		var c = document.getElementById("thisCanvas");
+		var ctx = c.getContext("2d");
+		ctx.fillStyle = "#145A32";
+		ctx.fillRect(0, 0, 100, 120);
+		</script>
+		<noscript>Sorry, your browser does not support JavaScript!</noscript>
+		
+		<hr>
+		<h1>The < dl >, < dd >, and < dt > elements</h1>
+		<p>These three elements are used to create a description list:</p>
+		<dl>
+			<dt>Computer</dt>
+			<dd>Computer is a electronics element</dd>
+			<dt>Book</dt>
+			<dd>Book may be online or paper book</dd>
+		</dl>
+		
+		<hr>
+		<h1>The < div > element</h1>
+		<div class="useDiv">
+			<h2>This is a heading in a div element</h2>
+			<p>This is some text in a div element.</p>
+		</div>
+		
+		<hr>
+		<h1>The < fieldset > element and < form > tag</h1>
+		<form>
+			<fieldset>
+				<legend>About Yours:</legend>
+				<label for="fname">First name:</label>
+				<input type="text" id="fname" name="fname"><br><br>
+				<label for="lname">Last name:</label>
+				<input type="text" id="lname" name="lname"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="birthday">Birthday:</label>
+				<input type="date" id="birthday" name="birthday"><br><br>
+				<input type="submit" value="Submit">
+			</fieldset>
+		</form>
+		
+		<hr>
+		<h1>The < figure >, < figcaption > and < footer >  element</h1>
+		<figure>
+			<img src="image/cute_baby_images _small.jpg" alt="cute_baby" style="width:20%">
+			<figcaption>Fig.1 - Cute baby</figcaption>
+		</figure>
+		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti adipisci alias cum blanditiis eos aliquam enim, ipsa odio animi, pariatur iusto sapiente necessitatibus natus doloribus placeat aliquid, ad quas.</p>
+		<footer>
+			<p>Author: Tuhin Shuvra</p>
+			<p><a href="mailto:tuhinshuvr18@gmail.com">tuhinshuvr18@gmail.com</a></p>
+		</footer>
+		<hr>
+		<h1> HTML < h1 > to < h6 > Tags</h1>
+		<h1>Lorem ipsum dolor, sit amet.</h1>
+		<h2>Lorem ipsum dolor, sit amet.</h2>
+		<h3>Lorem ipsum dolor, sit amet.</h3>
+		<h4>Lorem ipsum dolor, sit amet.</h4>
+		<h5>Lorem ipsum dolor, sit amet.</h5>
+		<h6>Lorem ipsum dolor, sit amet.</h6>
+		
+		<hr>
+		<h1>The < main > tag and < ol >, < ul >, < li >  elements</h1>
+		<main>
+			<p>The ol element defines an ordered list:</p>
+			<ol>
+				<li>Bangladesh</li>
+				<li>America</li>
+				<li>China</li>
+				<li>India</li>
+				<li>England</li>
+			</ol>
+			<p>The ul element defines an unordered list:</p>
+			<ul>
+				<li>Bangladesh</li>
+				<li>America</li>
+				<li>China</li>
+				<li>India</li>
+				<li>England</li>
+			</ul>
+		</main>
+		
+		<hr>
+		<h1>The < nav > element</h1>
+		<p>The nav element defines a set of navigation links:</p>
+		<nav>
+			<a href="https://www.prothomalo.com/" target="_blank">Prtothomalo</a> |
+			<a href="https://bangla.bdnews24.com/" target="_blank">BdNews24</a> |
+			<a href="https://www.kalerkantho.com/" target="_blank">Kalerkantho</a>
+		</nav>
+		
+		<hr>
+		<h1>The < section > element  and < p > tag</h1>
+		<section>
+			<h2>Lorem ipsum</h2>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, magni mollitia, dignissimos autem perferendis itaque omnis iusto animi possimus natus voluptate molestiae ut libero dolore harum enim saepe id suscipit</p>
+		</section>
+		
+		<hr>
+		<h1>The < pre > element</h1>
+		<pre>
+			Text in a pre element
+			is displayed in a fixed-width
+			font, and it preserves
+			both      spaces and
+			line breaks
+		</pre>
+		<hr>
+		<h1>The < table > and < tfoot > elements</h1>
+		<table border="1px">
+			<thead>
+				<tr>
+					<th>Member</th>
+					<th>Donation</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Asgor Ahmed</td>
+					<td>$60000</td>
+				</tr>
+				<tr>
+					<td>Debakor Chandra</td>
+					<td>$70000</td>
+				</tr>
+			</tbody>
+			<tfoot>
+			<tr>
+				<td>Total</td>
+				<td>$150000</td>
+			</tr>
+			</tfoot>
+		</table>
+		<hr>
+		<h1>HTML < video > Tag </h1>
+		<video width="420" height="340" controls="">
+			<source src="video/Atoms - 13232.mp4" type="video/mp4">
+			<source src="video/Globe - 6268.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video> 
+		<!-- ---------------------------------------------Inline Elements Example--------------------------------------------------------------- -->
+		<hr><hr><hr>
+		<h2 align="center">Inline Elements Example</h2>
+		
+		<h3>HTML < a >, < abbr >,  < b >, < bdo >, < br>, < i >, < em >, < button >  tag</h3>
+		<button><a href="https://www.prothomalo.com/" target="_blank" title="prothomalo">Prothom Alo</a></button>
+		<button><a href="https://bangla.bdnews24.com/" target="_blank" title="bdnews24">Bdnews24</a> <br></button> <br>
+		
+		The <abbr title="World Health Organization"><a href="https://www.who.int/" target="_blank"><b>WHO</b></a></abbr> <i> was founded in 1948.</i>
+		
+		<bdo dir="ltr">WHO's primary role is to direct international <em>health within the United Nations' </em> <sub>system and to lead</sub> partners in <sup>global health responses</sup>.</bdo> <br><br>
+		
+		<bdo dir="rtl">WHO's primary role is to direct international health within the United Nations' system and to lead partners in global health responses.</bdo>
+		
+		<hr><br>
+		<form action="" >
+			<label for="fname">First Name:</label>
+			<input type="text" id="fname" name="fname"> <br><br>
+			
+			<label for="lname">Last Name:</label>
+			<input type="text" id="lname" name="lname"> <br><br>
+			
+			<label for="gender">Gender:</label>
+			<select name="gender" id="gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="other">Other</option>
+			</select><br><br>
+			
+			<label for="contact">Contact No:</label>
+			<input type="text" id="contact" name="contact"> <br><br>
+			
+			<label for="practice">Practice Time</label>
+			<select name="practice" id="practice">
+				<option value="night"><time>10:00 PM to</time> <time>11:30 PM</time></option>
+				<option value="night"><time>06:00 AM to</time> <time>07:30 AM</time></option>
+				
+			</select><br><br>
+			<label for="topics">About Topics</label>
+			<textarea id="topics" name="topics" rows="3" cols="25"></textarea>
+
+
+			<input type="submit" name="submit">
+		</form>
+		
+		<img align="center" src="image/hervesting.jpg" alt="hervesting" width="700" height="250">
+		
+
+		<q>Enjoy the work you do and do the best you can.</q> <br><br><br><br>
+		<b><cite><q>Arise awaken and stop not till the gool reached.</q></cite></b>
+
+		<samp>If you agree press Y button </samp> <b> OR </b> <samp>If disagree press N button </samp>
+
+		
+
+		<object align="right" data="image/cute_baby_images _small.jpg"></object>
+
+		<br><br>
+		<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows) </p>	<br><br>
+		<p>Press <kbd>Ctrl</kbd> + <kbd>P</kbd> to paste text (Windows) </p>	
+
+		
+
+	</body>
+</html>
